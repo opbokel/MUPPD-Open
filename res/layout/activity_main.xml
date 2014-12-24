@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageGameTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:onClick="setDebugEnable"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+            <TextView
+        android:id="@+id/resumeGameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+        android:clickable="true"
+        android:onClick="resumeGame"
+        android:text="@string/resume_game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32dp" />
+        
+
+    <TextView
+        android:id="@+id/newGameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+        android:clickable="true"
+        android:onClick="newGame"
+        android:text="@string/new_game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32dp" />
+
+
+    <TextView
+        android:id="@+id/p1ControlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+        android:clickable="true"
+        android:onClick="changeP1Control"
+        android:text="@string/player"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/p2ControlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="330dp"
+        android:clickable="true"
+        android:onClick="changeP2Control"
+        android:text="@string/player"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/optionsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="380dp"
+        android:clickable="true"
+        android:onClick="callOptionsMenu"
+        android:text="@string/options"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/nextMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/newGameText"
+        android:clickable="true"
+        android:onClick="next"
+        android:text=">"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60dp" />
+
+</RelativeLayout>

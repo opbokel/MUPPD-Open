@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".network.BluetoothActivity" >
+
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a151a7a01a29a41"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR,B8F9F18B5E745AD742D6DF323DEEAD84,4F7EF8D7DE12DB83F09974EB3E27BE05" >
+
+    </com.google.ads.AdView>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp" >
+
+    </ListView>
+
+</RelativeLayout>

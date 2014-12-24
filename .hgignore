@@ -1,0 +1,6 @@
+syntax: glob
+*.class
+*.dex
+*.cache
+*.ap_
+bin/**

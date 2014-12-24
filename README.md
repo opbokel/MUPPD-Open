@@ -2,7 +2,7 @@ A open source game named Mega Ultra Ping Pong Deluxe.
 It was removed from the play store due to Atari making a claim of copyright infringement.
 I do not agree, it is based in Pong, but is too original to be considered a clone, I see as a tribute. I decided that the most important thing was the game so I removed all the ads and made the code open source.
 
-The last APK is always in the bin folder.
+The last APK is always in the root folder.
 
 The game has it own engine, a partially implemented multiplayer blue-tooth function (not working yet) and is designed to be very easy to create a modifier(power up).
 

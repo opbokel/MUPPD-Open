@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mtg.pong"
+    android:versionCode="9"
+    android:versionName="0.97b" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+        <uses-permission android:name="android.permission.INTERNET"/>
+  		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  		<uses-permission android:name="android.permission.BLUETOOTH"/>
+  		<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  		
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name=".WinnerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        </activity>
+        
+            <activity
+            android:name="mtg.pong.network.BluetoothActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            
+            <activity
+            android:name="mtg.pong.network.BTClientActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            
+        <activity
+            android:name="mtg.pong.CanvasActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="mtg.pong.ClientCanvasActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        
+        <activity
+            android:name="mtg.pong.menu.ModifierMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        </activity>
+    	
+    	</application>
+
+</manifest>

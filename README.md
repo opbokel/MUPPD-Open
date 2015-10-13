@@ -5,7 +5,7 @@ I do not agree, it is based in Pong, but is too original to be considered a clon
 
 The last APK is always in the root folder.
 
-The game has it own engine, a partially implemented multiplayer blue-tooth function (not working yet) and is designed to be very easy to create a modifier(power up). Each modifier changes completely the game play.
+The game has it own engine, a partially implemented multiplayer bluetooth function and is designed to be very easy to create a modifier(power up). Each modifier changes completely the game play.
 
 I hope that the community continue this project and make more modifiers, power ups are called modifiers since they modify the game play.
 
